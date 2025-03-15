@@ -1,9 +1,6 @@
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10689,7 +10686,7 @@ h5,
 .ftco-navbar-light {
   background: transparent !important;
   position: absolute;
-  top: 10px;
+  top: 5px;
   left: 0;
   right: 0;
   z-index: 3;
@@ -10958,11 +10955,12 @@ h5,
 .owl-carousel:hover .owl-nav .owl-next {
   right: -25px;
 }
-
+.home {
+  min-height: 100vh;
+}
 .hero-wrap {
   width: 100%;
   background-attachment: fixed; /* Thêm thuộc tính này để tạo hiệu ứng parallax */
-  min-height: 100vh;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -10974,6 +10972,11 @@ h5,
 @media (max-width: 991.98px) {
   .hero-wrap {
     background-position: top center !important;
+  }
+}
+@media (min-width: 992px) {
+  .hero-wrap-custom {
+    margin-top: 80px;
   }
 }
 .hero-wrap .overlay {

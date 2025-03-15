@@ -9,7 +9,7 @@ export default function Header() {
       >
         <div className="container">
           <a className="navbar-brand" href="/">
-            <span className="flaticon-lotus"></span>Venetian
+            <span className="flaticon-lotus"></span>Parisian
           </a>
           <button
             className="navbar-toggler"
@@ -30,7 +30,7 @@ export default function Header() {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="about.html" className="nav-link">
+                <a href="/about" className="nav-link">
                   About
                 </a>
               </li>
@@ -44,18 +44,8 @@ export default function Header() {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="" className="nav-link" target="_blank">
-                  Specialists
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="#services" className="nav-link">
+                <a href="/#services" className="nav-link">
                   Services
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="#pricing" className="nav-link">
-                  Pricing
                 </a>
               </li>
               <li className="nav-item">

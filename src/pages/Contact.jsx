@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <>
       <section
-        className="hero-wrap hero-wrap-2"
+        className="hero-wrap hero-wrap-custom hero-wrap-2"
         style={{
           backgroundImage: "url('images/bg_2.jpg')",
         }}
@@ -45,15 +45,26 @@ export default function Contact() {
                 <div className="col-md-12 mb-3">
                   <p>
                     <span>Email:</span>{" "}
-                    <a href="mailto:info@yoursite.com">info@yoursite.com</a>
+                    <a href="mailto:info@yoursite.com">
+                      Westcobbparisian@gmail.com
+                    </a>
                   </p>
                 </div>
                 <div className="col-md-12 mb-3">
                   <p>
                     <span>Website:</span>{" "}
-                    <a href="https://parisian-nail-salon.vercel.app/">
-                      yoursite.com
+                    <a href="https://nailsalonparisian.vercel.app/">
+                      nailsalonparisian.com
                     </a>
+                  </p>
+                </div>
+                <div className="col-md-12 mb-3">
+                  <p>
+                    <span>Business Hours:</span>{" "}
+                    <ul className="list-unstyled">
+                      <li>Monday - Saturday: 10:00 AM - 8:00 PM</li>
+                      <li>Sunday: 12:00 PM - 6:00 PM</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -75,7 +86,7 @@ export default function Contact() {
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
-                        type="text"
+                        type="email"
                         className="form-control"
                         placeholder="Your Email"
                       />

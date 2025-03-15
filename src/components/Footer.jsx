@@ -6,24 +6,25 @@ export default function Footer() {
           <div className="row d-flex">
             <div className="col-md">
               <div className="ftco-footer-widget mb-4">
-                <h2 className="ftco-heading-2">Energen</h2>
+                <h2 className="ftco-heading-2">Parisian nail salon</h2>
                 <p>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
+                  Experience elegance and luxury with expert nail care, creative
+                  designs, and relaxing spa treatments in a chic and tranquil
+                  setting.
                 </p>
                 <ul className="ftco-footer-social list-unstyled float-lft mt-3">
                   <li className="">
-                    <a href="#">
+                    <a href="">
                       <span className="icon-twitter"></span>
                     </a>
                   </li>
                   <li className="">
-                    <a href="#">
+                    <a href="">
                       <span className="icon-facebook"></span>
                     </a>
                   </li>
                   <li className="">
-                    <a href="#">
+                    <a href="">
                       <span className="icon-instagram"></span>
                     </a>
                   </li>
@@ -66,7 +67,7 @@ export default function Footer() {
                     <a href="#">Specialists</a>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <a href="/contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -78,21 +79,20 @@ export default function Footer() {
                   <ul>
                     <li>
                       <span className="icon icon-map-marker"></span>
-                      <span className="text">
-                        203 Fake St. Mountain View, San Francisco, California,
-                        USA
+                      <span className="text" style={{ color: "black" }}>
+                        3625 Dallas Hwy #715, Marietta, GA 30064
                       </span>
                     </li>
                     <li>
                       <a href="#">
                         <span className="icon icon-phone"></span>
-                        <span className="text">+2 392 3929 210</span>
+                        <span className="text">+1 770 419 1200</span>
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <span className="icon icon-envelope"></span>
-                        <span className="text">info@yourdomain.com</span>
+                        <span className="text">Westcobbparisian@gmail.com</span>
                       </a>
                     </li>
                   </ul>
